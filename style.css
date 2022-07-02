@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.header {
+    padding: 17px 0;
+    background-color: rgba(41, 44, 55, 0.659);
+
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 75px;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    line-height: 37px;
+    color: #a873c1;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 12px;
+    color: #a873c1;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.menu-link:hover {
+    color: #F38181;
+    border-bottom: 3px solid #F38181;
+
+}
+
+
+.about div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    
+}
+
+
+.about-title, .info-title, .rekv-title {
+    display: flex;
+    text-transform: uppercase;
+    color: darkmagenta;
+    justify-content: center;
+    padding: 0;
+    font-size: 25px;
+    line-height: 50px;
+    margin-bottom: 1px;
+}
+
+
+hr {
+    margin-top: 0;
+    border:0;
+    height: 3px;
+    width: 160px;
+    background-color: #d8ade7;
+}
+
+
+.about-text, .info-text, .rekv-text {
+    font-family:  cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #3a5dad;
+    padding-top: 30px;
+    margin: 0;
+}
+
+
+.tel, .email, .bank {
+    color: darkgrey;
+}
+.footer {
+    background-color: rgba(41, 44, 55, 0.659);
+}
+
+.footer-text {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #95abe4;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.ukraine {
+    width: 50px;
+    height: 50px;
+}
+
+
+.ukr2 {
+    width: 50px;
+    height: 50px;
+}
+
+.ukr3 {
+    margin-left: 38%;
+    width: 350px;
+    height: 215px;
+}
+
+.ukr4 {
+    margin-left: 38%;
+    width: 350px;
+    height: 200px;
+}
+
+
+
